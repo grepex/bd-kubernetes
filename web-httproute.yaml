@@ -4,7 +4,7 @@ metadata:
   name: web-httproute
 spec:
   parentRefs:
-    - name: web-httproute
+    - name: app-gateway
   hostnames:
     - "synchat.internal"
   rules:
